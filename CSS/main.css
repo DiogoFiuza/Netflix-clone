@@ -79,3 +79,13 @@ header nav a:hover {
   cursor: pointer;
   transition: .3s ease all;
 }
+
+.button i {
+  margin-right: 10px;
+}
+
+.button:hover {
+  background-color: white;
+  color: black;
+}
+

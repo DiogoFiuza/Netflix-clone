@@ -27,8 +27,8 @@ header .container {
 
 header .netflix-logo {
   color: var(--vermelho);
-  font-family: 'Arial Black', Times;
   font-size: 40px;
+  margin-left: 20px;
 }
 
 header nav a {
@@ -44,7 +44,7 @@ header nav a:hover {
 /* Main film */
 .main-film {
   font-size: 17px;
-  background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(./suits.jpg);
+  background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(./images/suits.jpg);
 
   height: 400px;
   background-size: cover;
@@ -54,6 +54,10 @@ header nav a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+}
+
+.container{
+  margin-left: 30px;
 }
 
 .description {
@@ -89,3 +93,12 @@ header nav a:hover {
   color: black;
 }
 
+.box-film {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+.carousel-films {
+  margin-top: 5px;
+}
